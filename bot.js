@@ -16,8 +16,8 @@ var i= guild.iconURL
 const embed = new Discord.RichEmbed()
   
                    .setColor("RANDOM")
-                .setFooter(` ©  WTFBOT `)
-                .setTitle(" WTFBOT Left Server !")
+                .setFooter(` ©  VERUX BOT `)
+                .setTitle(" VERUX Left Server !")
                 .addField("**Guild Name:**", guild.name )
                  .addField("**Owner:**", guild.owner.user.username )
                  .addField("**Owner id:**", guild.owner.user.id )
@@ -30,13 +30,13 @@ client.on('guildDelete', guild => {
     
 
   var star = new Discord.RichEmbed()
-  .setTitle("**__Why SOKA Left ?__**")
+  .setTitle("**__Why VERUXBOT Left ?__**")
   .setColor("ffffff")
   .setDescription("**We Are Sorry For Any Problems In The Bot **")
    .addField("🌍 **| CONTACT :**   ",
 " `-contact` `-sug` `-bug` ")
- .addField('🔗 **| SUPPORT SERVER** :' , "  https://discord.gg/Yx35DB8")
-            .setFooter(`WTFBOT`, 'https://cdn.discordapp.com/attachments/523864573921722368/417407034775044097/image.jpg')
+ .addField('🔗 **| SUPPORT SERVER** :' , "  https://discord.gg/9JammXW")
+            .setFooter(`VERUX`, 'https://cdn.discordapp.com/attachments/523864573921722368/417407034775044097/image.jpg')
       guild.owner.send(star)
 })
 
@@ -49,7 +49,7 @@ var i= guild.iconURL
 const embed = new Discord.RichEmbed()
   
                    .setColor("RANDOM")
-                .setFooter(` ©  WTFBOT `)
+                .setFooter(` ©  VERUX BOT `)
                 .setTitle(" WTF Added To Server !")
                 .addField("**Guild Name:**", guild.name )
                  .addField("**Owner:**", guild.owner.user.username )
@@ -114,7 +114,7 @@ client.on('message', message => {
         const embed = new Discord.RichEmbed()
         .setColor(0xd3d0c4)
         .setImage(`${x5bzm.avatarURL}`)
-           .setFooter(`©  WTFBOT `)
+           .setFooter(`©  VERUX BOT `)
       message.channel.sendEmbed(embed);
     }
 });
@@ -195,7 +195,7 @@ client.on('message', message => {
             timestamp: new Date(),
             footer: {
               icon_url: client.user.avatarURL,
-              text: "© SOKA"
+              text: "© VERUX BOT"
             }
           }
         });
@@ -240,7 +240,7 @@ client.on('message', message => {
                 timestamp: new Date(),
                 footer: {
                   icon_url: client.user.avatarURL,
-                  text: "© SOKA"
+                  text: "© VERUX BOT"
                 }
               }
             });
@@ -644,7 +644,7 @@ client.on('message', message => {
             timestamp: new Date(),
             footer: {
               icon_url: client.user.avatarURL,
-              text: "© WTFBOT "
+              text: "© VERUX BOT "
             }
           }
         });
@@ -740,7 +740,7 @@ client.on('message', message => {
             timestamp: new Date(),
             footer: {
               icon_url: client.user.avatarURL,
-              text: "© WTFBOT"
+              text: "© VERUX BOT"
             }
           }
         });
@@ -973,11 +973,11 @@ client.on('message' , message => {
     if(message.content.startsWith( "-invite")) {
  
 const embed = new Discord.RichEmbed()
-  .setFooter(`©  WTFBOT `)
+  .setFooter(`©  VERUX BOT `)
      .setColor(0xd3d0c4)
 .setAuthor(message.author.username, message.author.avatarURL)
 .setTitle(':arrow_right: Click Here Invite Link اضغط هنا')
-.setURL('https://discordapp.com/api/oauth2/authorize?client_id=523864573921722368&permissions=8&scope=bot')
+.setURL('https://discordapp.com/api/oauth2/authorize?client_id=576931152439279626&permissions=8&scope=bot')
 
 message.channel.sendEmbed(embed);
 
@@ -990,11 +990,11 @@ client.on('message' , message => {
     if(message.content == ( "-invite")) {
  
 const embed = new Discord.RichEmbed()
-  .setFooter(`©  WTFBOT `)
+  .setFooter(`©  VERUX BOT `)
      .setColor(0xd3d0c4)
 .setAuthor(message.author.username, message.author.avatarURL)
 .setTitle(':arrow_right: Click Here Invite Link اضغط هنا')
-.setURL('https://discordapp.com/api/oauth2/authorize?client_id=523864573921722368&permissions=8&scope=bot')
+.setURL('https://discordapp.com/api/oauth2/authorize?client_id=576931152439279626&permissions=8&scope=bot')
 
 message.channel.sendEmbed(embed);
 
@@ -1013,7 +1013,7 @@ const embed = new Discord.RichEmbed()
 .setAuthor(message.author.username, message.author.avatarURL)
 .setTitle(':arrow_right: Click Here Invite Link اضغط هنا')
 .setURL('  https://discord.gg/Yx35DB8 ')
-  .setFooter(`©  WTFBOT `)
+  .setFooter(`©  VERUX BOT `)
 message.channel.sendEmbed(embed);
 
 }
@@ -1248,7 +1248,7 @@ client.on('message', message => {
    .addField("ID:", "**" + `${mentionavatar.id}` + "**", true)
   .addField("Create At:", "**" + `${mentionavatar.createdAt}` + "**", true)
   .addField("Invites:", `**0**` ,true)
-     .setFooter(`©  WTFBOT `)
+     .setFooter(`©  VERUX BOT `)
       message.channel.sendEmbed(embed);
  }else{
    let embed = new Discord.RichEmbed()
@@ -1260,7 +1260,7 @@ client.on('message', message => {
   .addField("Create At:", "**" + `${mentionavatar.createdAt}` + "**", true)
 
   .addField("Invites:", `**${invites.find(invite => invite.inviter.id === `${mentionavatar.id}`).uses}**` ,true)
-    .setFooter(`©  WTFBOT `)
+    .setFooter(`©  VERUX BOT `)
 
   message.channel.sendEmbed(embed);
  }
@@ -1313,7 +1313,7 @@ if (message.content.startsWith("-cv")) {
         const embed = new Discord.RichEmbed()
         .setColor(0xd3d0c4)
         .setDescription(' **Room Created ! ✔** ')
-  .setFooter(`©  WTFBOT `)
+  .setFooter(`©  VERUX BOT `)
         message.channel.sendEmbed(embed);
 }
 });
@@ -1329,7 +1329,7 @@ if (message.content.startsWith("-ct")) {
     const embed = new Discord.RichEmbed()
         .setColor(0xd3d0c4)
         .setDescription(' **Room Created ! ✔** ')
-       .setFooter(`©  WTFBOT `)
+       .setFooter(`©  VERUX BOT `)
         message.channel.sendEmbed(embed);
 }
 });
@@ -1407,7 +1407,7 @@ if (command == "embed") {
   .setAuthor(message.author.username)
     .setDescription(args.join("  "))
     .setColor(0xd3d0c4)
-      .setFooter(`©  WTFBOT `)
+      .setFooter(`©  VERUX BOT `)
     message.channel.sendEmbed(say);
     
     message.delete();
@@ -1455,7 +1455,7 @@ var cats = [
          var cat = new Discord.RichEmbed()
 .setImage(cats[Math.floor(Math.random() * cats.length)])
 .setColor(0xd3d0c4)
-   .setFooter(`©  WTFBOT `)
+   .setFooter(`©  VERUX BOT `)
 message.channel.sendEmbed(cat);
 
     }
@@ -1484,7 +1484,7 @@ var flip = ["**__HEADS__**",
 .setDescription(flip[Math.floor(Math.random() * flip.length)])
 .setThumbnail("https://cdn.onlinewebfonts.com/svg/img_441809.png")
 .setColor(0xd3d0c4)
-   .setFooter(`©  WTFBOT `)
+   .setFooter(`©  VERUX BOT `)
 message.channel.sendEmbed(cat);
 
     }
@@ -1511,7 +1511,7 @@ client.on('message', message => {
 :black_heart: offline:   ${message.guild.members.filter(m=>m.presence.status == 'offline').size} 
 :blue_heart:   all:  ${message.guild.memberCount}**`)         
              .setColor(0xd3d0c4)
-            .setFooter(`©  WTFBOT `)
+            .setFooter(`©  VERUX BOT `)
          message.channel.send({embed});
 
     }
@@ -1538,7 +1538,7 @@ client.on('message', message => {
       .setTitle(`This is  ** ${message.guild.name} **  Photo !`)
   .setAuthor(message.author.username, message.guild.iconrURL)
   .setColor(0xd3d0c4)
-     .setFooter(`©  WTFBOT `)
+     .setFooter(`©  VERUX BOT `)
     .setImage(message.guild.iconURL)
     .setURL(message.guild.iconrURL)
                     .setTimestamp()
@@ -1570,7 +1570,7 @@ client.on('message', message => {
             .addField('``Name Bot Or tag``' , `${client.user.tag}` , true)
             .addField('``Bot Id``' , `${client.user.id}` , true)
            .setThumbnail(client.avatarURL)
-            .setFooter('WTFBOT')
+            .setFooter('VERUX BOT')
           
     })
 }
@@ -1607,16 +1607,16 @@ client.on('message', message => {
     const days = millis / 1000 / 60 / 60 / 24;
     let roles = client.guilds.get(message.guild.id).roles.map(r => r.name);
     var embed  = new Discord.RichEmbed()
-    .setAuthor("[ WTFBOT Bot ]", " https://cdn.discordapp.com/attachments/409281937794924546/420678602892378112/Untitled-1_converted.png")
+    .setAuthor("[ VERUXBOT Bot ]", " https://cdn.discordapp.com/attachments/409281937794924546/420678602892378112/Untitled-1_converted.png")
     .addField("**[ Prefix ] :**","**[ - ]**" , true)
-    .addField("**🆔 [ WTFBOT ID ] **", "**"+"500702351229714432"+"**",true)
-    .addField("**🏷 [ WTFBOT ] **","** دريمس**")
+    .addField("**🆔 [ VERUXBOT ID ] **", "**"+"500702351229714432"+"**",true)
+    .addField("**🏷 [ VERUXBOT ] **","** دريمس**")
     .addField("🛠 [ Bot Developer ]","<@!389100615432929290>")
     .addField("**🌍 [ Servers ]**" , "**"+`${client.guilds.size}`+" Server**",true)
     .addField("**👥 [ Users ] **",`** ${client.users.size} User**`)
     .setThumbnail(" https://cdn.discordapp.com/attachments/409281937794924546/420678602892378112/Untitled-1_converted.png")
     .setColor("ffffff")
-    .setFooter(`-help to see all WTFBOT commands `, ' https://cdn.discordapp.com/attachments/409281937794924546/420678602892378112/Untitled-1_converted.png')
+    .setFooter(`-help to see all VERUXBOT commands `, ' https://cdn.discordapp.com/attachments/409281937794924546/420678602892378112/Untitled-1_converted.png')
     message.channel.sendEmbed(embed)
     }
     });
@@ -2293,7 +2293,7 @@ message.channel.sendEmbed(embed);
                 if(!message.channel.guild) return message.reply('** This command only for servers**');
   var embed = new Discord.RichEmbed()
   .setColor(0xd3d0c4)
-      .setFooter(`©  WTFBOT `)
+      .setFooter(`©  VERUXBOT `)
    .setThumbnail(message.author.avatarURL) 
  .addField('لعبه كت تويت' ,
   `${cuttweet[Math.floor(Math.random() * cuttweet.length)]}`)
@@ -2376,7 +2376,7 @@ const Sra7a = [
      if(!message.channel.guild) return message.reply('** This command only for servers **');
   var client= new Discord.RichEmbed()
   .setTitle("لعبة صراحة ..")
-    .setFooter(`©  WTFBOT `)
+    .setFooter(`©  VERUXBOT `)
   .setColor(0xd3d0c4)
   .setDescription(`${Sra7a[Math.floor(Math.random() * Sra7a.length)]}`)
   .setImage("https://cdn.discordapp.com/attachments/371269161470525444/384103927060234242/125.png")
@@ -2452,7 +2452,7 @@ const Za7f = [
   var embed = new Discord.RichEmbed()
   .setColor(0xd3d0c4)
    .setThumbnail(message.author.avatarURL) 
-   .setFooter(`©  WTFBOT `)
+   .setFooter(`©  VERUXBOT `)
  .addField('عقاب' ,
   `${Za7f[Math.floor(Math.random() * Za7f.length)]}`)
   message.channel.sendEmbed(embed);
@@ -2470,7 +2470,7 @@ var rebel = ["https://f.top4top.net/p_682it2tg6.png","https://e.top4top.net/p_68
          var cat = new Discord.RichEmbed()
 .setImage(rebel[Math.floor(Math.random() * rebel.length)])
  .setColor(0xd3d0c4)
-   .setFooter(`©  WTFBOT `)
+   .setFooter(`©  VERUXBOT `)
 message.channel.sendEmbed(cat);
 
     }
@@ -2501,7 +2501,7 @@ const secreT = [
  .addField('لعبه خواطر' ,
   `${secreT[Math.floor(Math.random() * secreT.length)]}`)
    .setColor(0xd3d0c4)
-     .setFooter(`©  WTFBOT `)
+     .setFooter(`©  VERUXBOT `)
   message.channel.sendEmbed(embed);
     }
 });
@@ -2517,7 +2517,7 @@ const Love = [  "**احبك / عدد قطرات المـــطر والشجر و
                 if(!message.channel.guild) return message.reply('** This command only for servers**');
   var embed = new Discord.RichEmbed()
   .setColor(0xd3d0c4)
-     .setFooter(`©  WTFBOT `)
+     .setFooter(`©  VERUXBOT `)
    .setThumbnail(message.author.avatarURL) 
  .addField('حب' ,
   `${Love[Math.floor(Math.random() * Love.length)]}`)
@@ -3707,7 +3707,7 @@ client.on('message', message => {
  .addField("`-dt`",
 " To preview Time & Date In 3 Diffrent Countries  .")
 .setColor("RANDOM")
-.setFooter(`©  WTFBOT `)
+.setFooter(`©  VERUXBOT `)
 
 const b = new Discord.RichEmbed()
          .setDescription(`** 「💫| SPECIAL COMMANDS」**`)
@@ -3727,7 +3727,7 @@ const b = new Discord.RichEmbed()
  .addField("`-seen`",
 " To See Member's Last Activity in Server  .")
 .setColor("RANDOM")
-.setFooter(`©  WTFBOT `)
+.setFooter(`©  VERUXBOT `)
 
 const c = new Discord.RichEmbed()
                 .setDescription(`** 「🌈 | COLORS COMMANDS」**`)
@@ -3741,7 +3741,7 @@ const c = new Discord.RichEmbed()
  .addField("`-color`",
 " To Pick A color  .")
 .setColor("RANDOM")
-.setFooter(`©  WTFBOT `)
+.setFooter(`©  VERUXBOT `)
 
   const d = new Discord.RichEmbed()
  .setDescription(`** 「💵** | BANK COMMANDS」**`)
@@ -3759,7 +3759,7 @@ const c = new Discord.RichEmbed()
 
 
 .setColor("RANDOM")
-.setFooter(`©  WTFBOT `)
+.setFooter(`©  VERUXBOT `)
 
 const e = new Discord.RichEmbed()
           .setDescription(` ** 「🛠 | ADMINS COMMANDS」**`)
@@ -3789,7 +3789,7 @@ const e = new Discord.RichEmbed()
 " To Unlock A Text Channel   .")
 
 .setColor("RANDOM")
-.setFooter(`©  WTFBOT `)
+.setFooter(`©  VERUXBOT `)
   
   const f = new Discord.RichEmbed()
          .setDescription(`** 「🛡| MOD COMMANDS 」**`)
@@ -3818,7 +3818,7 @@ const e = new Discord.RichEmbed()
 .addField("`-showchannel`",
 " To Unhide A Text Channel   .")
 .setColor("RANDOM")
-.setFooter(`©  WTFBOT `)
+.setFooter(`©  VERUXBOT `)
 
 const h = new Discord.RichEmbed()
          .setDescription(` ** 「️️️��| MUSIC COMMANDS」**`)
@@ -3839,7 +3839,7 @@ const h = new Discord.RichEmbed()
 .addField("`-mrepeat`",
 " To Loop The Queue   .")
 .setColor("RANDOM")
-.setFooter(`©  WTFBOT `)
+.setFooter(`©  VERUXBOT `)
 
 const i = new Discord.RichEmbed()
        .setDescription(`** 「🖼 | Image COMMANDS」**`)
@@ -3866,7 +3866,7 @@ const z = new Discord.RichEmbed()
 .setFooter(`©  WTFBOT `)
 
 const j = new Discord.RichEmbed()
-       .setDescription(`  ** WTFBOT | INFO COMMANDS」**`)
+       .setDescription(`  ** VERUXBOT | INFO COMMANDS」**`)
                  
                
                  .addField("`-ping`",
@@ -3887,7 +3887,7 @@ const j = new Discord.RichEmbed()
 .setFooter(`©  WTFBOT `)
 
 const k = new Discord.RichEmbed()
-          .setDescription(` ** WTFBOT | BOT INFO」**`)
+          .setDescription(` ** VERUXBOT | BOT INFO」**`)
                 
 .addField("`-invite`",
 "  To Invite Bot To Your Server  .")
@@ -4000,9 +4000,9 @@ client.on('message', message => {
 
  .addField("🌍 **| OWNER :**   ",
 " `-contact` `-sug` `-bug` ")
-.addField("**:globe_with_meridians: | WEBSITE :**","https://dreamsbot.wixsite.com/dreams")
- .addField('🔗 **| INVITE** :' , " https://goo.gl/s8AwxX")
- .addField('🔗 **| SUPPORT SERVER** :' , " https://discordapp.com/invite/gP6q8tY")
+.addField("**:globe_with_meridians: | WEBSITE :**","Soon")
+ .addField('🔗 **| INVITE** :' , " https://discordapp.com/oauth2/authorize?client_id=576931152439279626&scope=bot&permissions=468970647")
+ .addField('🔗 **| SUPPORT SERVER** :' , " https://discord.gg/9JammXW")
   .setFooter(`©  WTFBOT `)
 message.react("📮")
  
@@ -4048,7 +4048,7 @@ client.on('message', message => {
 .setColor("RANDOM")
 .addField("🌍 **| OWNER :**   ",
 " `-contact` ")
-.setFooter(`©  WTFBOT `)
+.setFooter(`©  VERUXBOT `)
 message.react("💎")
 message.author.sendEmbed(embed);
 
@@ -4082,7 +4082,7 @@ client.on('message', message => {
 .setColor("RANDOM")
 .addField("🌍 **| OWNER :**  ",
 " `-contact` ")
-.setFooter(`©  WTFBOT `)
+.setFooter(`©  VERUXBOT `)
 message.react("💫")
 message.author.sendEmbed(embed);
 
@@ -4108,7 +4108,7 @@ client.on('message', message => {
 .setColor("RANDOM")
 .addField("🌍 **| OWNER :**   ",
 " `-contact` ")
-.setFooter(`©  WTFBOT `)
+.setFooter(`©  VERUXBOT `)
 message.react("🌈")
 message.author.sendEmbed(embed);
 
@@ -4136,7 +4136,7 @@ client.on('message', message => {
 .setColor("RANDOM")
 .addField("🌍 **| OWNER :**  ",
 " `-contact`")
-.setFooter(`©  WTFBOT `)
+.setFooter(`©  VERUXBOT `)
 message.react("💵")
 message.author.sendEmbed(embed);
 
@@ -4178,7 +4178,7 @@ client.on('message', message => {
 .setColor("RANDOM")
 .addField("���� **| OWNER :**  ",
 " `-contact`")
-.setFooter(`©  WTFBOT `)
+.setFooter(`©  VERUXBOT `)
 message.react("🛠")
 message.author.sendEmbed(embed);
 
@@ -4220,7 +4220,7 @@ client.on('message', message => {
 .setColor("RANDOM")
 .addField("🌍 **| OWNER :**   ",
 " `-contact`")
-.setFooter(`©  WTFBOT `)
+.setFooter(`©  VERUXBOT `)
 message.react("🛡")
 message.author.sendEmbed(embed);
 
@@ -4254,7 +4254,7 @@ client.on('message', message => {
 .setColor("RANDOM")
 .addField("🌍 **| OWNER :**  ",
 " `-contact`")
-.setFooter(`©  WTFBOT `)
+.setFooter(`©  VERUXBOT `)
 message.react("️️️🎶")
 message.author.sendEmbed(embed);
 
@@ -4282,7 +4282,7 @@ client.on('message', message => {
 .setColor("RANDOM")
 .addField("🌍 **| OWNER :**  ",
 " `-contact`")
-.setFooter(`©  WTFBOT `)
+.setFooter(`©  VERUXBOT `)
 message.react("🖼")
 message.author.sendEmbed(embed);
 
@@ -4306,7 +4306,7 @@ client.on('message', message => {
 .setColor("RANDOM")
 .addField("🌍 **| OWNER :**  ",
 " `-contact`")
-.setFooter(`©  WTFBOT `)
+.setFooter(`©  VERUXBOT `)
 message.react("🖼")
 message.author.sendEmbed(embed);
 
@@ -4340,7 +4340,7 @@ client.on('message', message => {
 .setColor("RANDOM")
 .addField("🌍 **| OWNER :**  ",
 " `-contact`")
-.setFooter(`©  WTFBOT `)
+.setFooter(`©  VERUXBOT `)
 message.react("👤")
 message.author.sendEmbed(embed);
 
@@ -4366,7 +4366,7 @@ client.on('message', message => {
 .setColor("RANDOM")
 .addField("🌍 **| OWNER :**  ",
 " `-contact`")
-.setFooter(`©  WTFBOT `)
+.setFooter(`©  VERUXBOT `)
 message.react("🔧")
 message.author.sendEmbed(embed);
 
@@ -4401,7 +4401,7 @@ client.on('message', message => {
 
 .setColor("ffffff")
 
-.setFooter(`©  WTFBOT `)
+.setFooter(`©  VERUXBOT `)
 
 message.channel.sendEmbed(embed);
 }
@@ -4681,10 +4681,10 @@ message.author.sendEmbed(embed)
 
 
 
-🔗 **| سيرفر الدعم و المساعدة** :  https://discord.gg/Yx35DB8
+🔗 **| سيرفر الدعم و المساعدة** :  https://discord.gg/9JammXW
 `)
 .setColor('0bbaba')
-  .setFooter(`©  WTFBOT `)
+  .setFooter(`©  VERUXBOT `)
 message.author.sendEmbed(embed)
     
 }
